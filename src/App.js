@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { DotsGroup, Landing, Navbar } from "./components";
+import {
+  DotsGroup,
+  Landing,
+  LineGradient,
+  MySkills,
+  Navbar,
+} from "./components";
 import useMediaQuery from "./hooks/useMediaQuery";
 
 function App() {
@@ -31,6 +37,10 @@ function App() {
           />
         )}
         <Landing setSelectedPage={setSelectedPage} />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <MySkills />
       </div>
     </div>
   );

@@ -71,6 +71,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }) => {
                   page={item}
                   selectedPage={selectedPage}
                   setSelectedPage={setSelectedPage}
+                  // onClick={console.log("heelow")}
                 />
               ))}
             </div>
