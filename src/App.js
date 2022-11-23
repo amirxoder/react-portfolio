@@ -6,6 +6,7 @@ import {
   MySkills,
   Navbar,
   Projects,
+  Testimonials,
 } from "./components";
 import useMediaQuery from "./hooks/useMediaQuery";
 
@@ -46,6 +47,10 @@ function App() {
       <LineGradient />
       <div className="w-5/6 mx-auto">
         <Projects />
+      </div>
+      <LineGradient />
+      <div className="w-5/6 mx-auto">
+        <Testimonials />
       </div>
     </div>
   );

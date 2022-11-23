@@ -19,7 +19,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
   );
 };
 
-const navItems = ["home", "skills", "projects", "testimonals", "contact"];
+const navItems = ["home", "skills", "projects", "testimonials", "contact"];
 
 const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }) => {
   const [isMenutoggle, setIsMenutoggle] = useState(false);

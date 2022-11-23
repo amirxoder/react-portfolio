@@ -5,6 +5,7 @@ import SocialMedia from "./SocialMedia";
 import LineGradient from "./LineGradient";
 import MySkills from "./MySkills";
 import Projects from "./Projects";
+import Testimonials from "./Testimonials";
 
 export {
   Navbar,
@@ -14,4 +15,5 @@ export {
   LineGradient,
   MySkills,
   Projects,
+  Testimonials,
 };

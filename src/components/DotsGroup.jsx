@@ -1,7 +1,7 @@
 import React from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const navItems = ["home", "skills", "projects", "testimonals", "contact"];
+const navItems = ["home", "skills", "projects", "testimonials", "contact"];
 const DotsGroup = ({ selectedPage, setSelectedPage }) => {
   const selectedStyles = `relative bg-yellow before:absolute before:w-6 before:h-6 before:rounded-full
     before:border-2 before:border-yellow before:left-[-50%] before:top-[-50%] transition duration-500`;
